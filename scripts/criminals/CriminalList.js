@@ -2,6 +2,7 @@ import { getCriminals, useCriminals } from './CriminalDataProvider.js'
 import { Criminal } from './Criminal.js'
 import { useConvictions } from '../convictions/ConvictionsProvider.js'
 import { useOfficers} from '../officers/OfficerDataProvider.js'
+
 const criminalElement = document.querySelector(".criminalsContainer")
 
 export const CriminalList = () => {
@@ -50,7 +51,7 @@ criminalElement.innerHTML = criminalCards.join("")
 
 eventHub.addEventListener('officerSelected', event => {
     const officers = useOfficers();
-    const officerId = parseInt(event.detail.officerThatWasChosen);
+    const officerId = parseInt(event.detail.officer);
     const foundOfficer = officers.find( (officer) => officer.id === officerId );
    
     const criminals = useCriminals();
