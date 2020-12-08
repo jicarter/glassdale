@@ -8,22 +8,32 @@
       "id": 1
     },
     {
+      "author": "bob",
+      "text": "Louise did it",
+      "suspect": "Louise",
+      "timeStamp": 1607456253831,
       "id": 2
     },
     {
+      "author": "John",
+      "text": "Message",
+      "suspect": "Jimmy",
+      "timeStamp": 1607456334027,
       "id": 3
     },
     {
+      "author": "The Doors",
+      "text": "This is the end",
+      "suspect": "The World",
+      "timeStamp": 1607456456335,
       "id": 4
     },
     {
+      "author": "Jimbo",
+      "text": "This guy smells bad",
+      "suspect": "Smelly Sam",
+      "timeStamp": 1607456833419,
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
     }
   ]
 }
