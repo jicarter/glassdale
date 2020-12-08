@@ -22,3 +22,32 @@ main {
     padding: 2em;
     
 }
+
+#crimeSelect {
+    margin-bottom: 10px;
+}
+.noteFormContainer {
+    width: 50%;
+    margin-left: 25%;
+    display: grid;
+}
+
+.noteList {
+    flex: 0 0 33%;
+    border: solid black 2px;
+    margin: auto;
+    padding: 2em;
+    max-width: 50%;
+}
+
+.note {
+    border: solid black 2px;
+    margin: auto;
+    padding: 2em;
+    max-width: 50%;
+}
+
+#showNotes {
+    width: 50%;
+    margin-left: 25%;
+}
