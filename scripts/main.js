@@ -13,8 +13,8 @@ ConvictionSelect();
 OfficerSelect();
 NoteForm();
 ShowNoteButton();
-
-
+showAlibiButton()
+//eachAssociate();
 
 //TODO:
 // what feature are we implementing?
