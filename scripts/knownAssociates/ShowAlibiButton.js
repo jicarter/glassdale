@@ -1,5 +1,5 @@
-import { Associates } from "./Associates.js"
-import { getCriminals, useCriminals, getCriminal } from "../criminals/CriminalDataProvider.js"
+
+import { getCriminal } from "../criminals/CriminalDataProvider.js"
 
 
 export const showAlibiButton = () => {
