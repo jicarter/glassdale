@@ -18,11 +18,3 @@ export const showAlibiButton = () => {
 
 
 
-/*
- need to alert criminal.js that button has been clicked and send the criminal ID 
-
-the show alibi button needs to find the criminal with the matching ID
-
-loop over known assocaiates
-
-*/
