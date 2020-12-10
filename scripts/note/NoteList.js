@@ -10,7 +10,7 @@ eventHub.addEventListener("showNotesClicked", () => {
     NoteList()
 })
 eventHub.addEventListener("noteStateChanged", () => {
-    NoteList()
+    getNotes()
 })
 
 const render = (noteArray) => {
@@ -34,3 +34,4 @@ export const NoteList = () => {
             render(allNotes)
         })
 }
+

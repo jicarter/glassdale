@@ -34,6 +34,34 @@
       "suspect": "Smelly Sam",
       "timeStamp": 1607456833419,
       "id": 5
+    },
+    {
+      "author": "Gumby",
+      "text": "Likes to be annoying",
+      "suspect": "Pokey",
+      "timeStamp": 1607461162245,
+      "id": 6
+    },
+    {
+      "author": "Moe",
+      "text": "These guys are shysters",
+      "suspect": "Dewey, Cheatam, and Howe",
+      "timeStamp": 1607462150826,
+      "id": 7
+    },
+    {
+      "author": "Apple",
+      "text": "He's spicy",
+      "suspect": "Habanero ",
+      "timeStamp": 1607529642143,
+      "id": 8
+    },
+    {
+      "author": "Orange",
+      "text": "This guy is sour",
+      "suspect": "Grapes",
+      "timeStamp": 1607529756922,
+      "id": 9
     }
   ]
 }

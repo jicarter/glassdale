@@ -2,6 +2,7 @@ import { getCriminals, useCriminals } from './CriminalDataProvider.js'
 import { Criminal } from './Criminal.js'
 import { useConvictions } from '../convictions/ConvictionsProvider.js'
 import { useOfficers} from '../officers/OfficerDataProvider.js'
+import { showAlibiButton } from '../knownAssociates/showAlibiButton.js'
 
 const criminalElement = document.querySelector(".criminalsContainer")
 
@@ -46,7 +47,7 @@ const render = (criminals) => {
 
 
 criminalElement.innerHTML = criminalCards.join("")
-    
+    showAlibiButton()
 }
 
 eventHub.addEventListener('officerSelected', event => {
