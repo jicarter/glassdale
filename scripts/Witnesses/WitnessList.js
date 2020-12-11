@@ -1,14 +1,14 @@
-let show = function (WitnessList) {
-    WitnessList.style.display = 'block';
+let show = function (listItem) {
+    listItem.style.display = 'block';
 };
 
-let hide = function (WitnessList) {
-    WitnessList.style.display = 'none';
+let hide = function (listItem) {
+    listItem.style.display = 'none';
 };
 
-let toggle = function (WitnessList) {
-    if (window.getComputedStyle(WitnessList).display === 'block') {
-        hide(WitnessList);
+let toggle = function (listItem) {
+    if (window.getComputedStyle(listItem).display === 'block') {
+        hide(listItem);
         return
     }
 }
