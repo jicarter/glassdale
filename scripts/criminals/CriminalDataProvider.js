@@ -1,5 +1,5 @@
 let criminals = []
-
+console.log(criminals);
 export const useCriminals = () => criminals.slice()
 
 export const getCriminals = () => {
